@@ -1,0 +1,202 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #ffe6f0; 
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    color: #b03060;
+    margin-bottom: 10px;
+}
+
+.slogan {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.banner {
+    width: 90%;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.section {
+    padding: 60px 10%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.text {
+    flex: 1;
+}
+
+.text.full {
+    flex: 100%;
+    text-align: center;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+h2 {
+    color: #b03060;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+}
+footer h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.team-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 20px 0;
+}
+
+.team-list li {
+    margin: 5px 0;
+}
+/* ===== HEADER HỒNG PASTEL ===== */
+.top-header {
+    background: #f8c8dc;
+    color: #6b2c5c;
+    text-align: center;
+    padding: 30px 10px 20px;
+}
+
+.top-header h1 {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.banner-box {
+    background: #ffd6e8;
+    padding: 10px;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.banner-box img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.slogan {
+    margin-top: 12px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* ===== MENU ===== */
+.menu {
+    background: white;
+    text-align: center;
+    padding: 14px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.menu a {
+    text-decoration: none;
+    color: #6b2c5c;
+    font-weight: bold;
+    margin: 0 18px;
+}
+
+.menu a:hover {
+    color: #ff4fa3;
+}
+h1 {
+    font-size: 38px;
+    color: #c2185b;
+}
+
+h2 {
+    font-size: 26px;
+    color: #ad1457;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bg1 {
+    background-color: #ffe6f0; 
+}
+
+.bg2 {
+    background-color: #fff0f6;
+}
+.section {
+    padding: 60px 10%;
+}
+.member-columns {
+    display: flex;
+    justify-content: center;
+    gap: 80px; /* khoảng cách giữa 2 cột */
+    margin-top: 20px;
+    text-align: left;
+}
+
+.member-columns ul {
+    list-style: none;
+    padding: 0;
+}
+
+.member-columns li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
